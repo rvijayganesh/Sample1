@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="70" started-at="2018-04-05T01:26:43Z" finished-at="2018-04-05T01:26:44Z">
+    <groups>
+    </groups>
+    <test name="Install" duration-ms="33" started-at="2018-04-05T01:26:43Z" finished-at="2018-04-05T01:26:44Z">
+      <class name="vijay.Install">
+        <test-method status="PASS" signature="login()[pri:0, instance:vijay.Install@7f560810]" name="login" is-config="true" duration-ms="11" started-at="2018-04-04T21:26:44Z" finished-at="2018-04-04T21:26:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="prod2()[pri:0, instance:vijay.Install@7f560810]" name="prod2" duration-ms="6" started-at="2018-04-04T21:26:44Z" finished-at="2018-04-04T21:26:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prod2 -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:vijay.Install@7f560810]" name="logout" is-config="true" duration-ms="1" started-at="2018-04-04T21:26:44Z" finished-at="2018-04-04T21:26:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- vijay.Install -->
+    </test> <!-- Install -->
+    <test name="MACD" duration-ms="4" started-at="2018-04-05T01:26:44Z" finished-at="2018-04-05T01:26:44Z">
+      <class name="vijay.Macd">
+        <test-method status="PASS" signature="login()[pri:0, instance:vijay.Macd@3a82f6ef]" name="login" is-config="true" duration-ms="0" started-at="2018-04-04T21:26:44Z" finished-at="2018-04-04T21:26:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="macd_prod1()[pri:0, instance:vijay.Macd@3a82f6ef]" name="macd_prod1" duration-ms="2" started-at="2018-04-04T21:26:44Z" finished-at="2018-04-04T21:26:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- macd_prod1 -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:vijay.Macd@3a82f6ef]" name="logout" is-config="true" duration-ms="0" started-at="2018-04-04T21:26:44Z" finished-at="2018-04-04T21:26:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- vijay.Macd -->
+    </test> <!-- MACD -->
+  </suite> <!-- Suite -->
+</testng-results>
